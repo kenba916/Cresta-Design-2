@@ -36,6 +36,13 @@ $('a[href*="#"]').click(function () {
 });
 
 
+// slick
+$(".slider").slick({
+  autoplay: true,
+  autoplaySpeed: 2800,
+});
+
+
 // 全て記入でボタンがactive
 let $submit = $("#js-submit");
 $("#js-form input, #js-form textarea").on("change", function () {
