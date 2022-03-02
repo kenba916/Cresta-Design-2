@@ -379,6 +379,7 @@ img {
   font-family: "Noto Serif", sans-serif;
   -webkit-transition: 0.3s ease 0s all;
   transition: 0.3s ease 0s all;
+  color: #171717;
 }
 .btn:hover {
   -webkit-transform: scale(1.1);
